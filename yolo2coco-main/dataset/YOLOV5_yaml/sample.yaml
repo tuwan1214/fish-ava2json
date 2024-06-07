@@ -1,0 +1,16 @@
+# 该配置文件和yolov5项目使用的一样
+
+# dataset root dir
+path: F:/pycharm2021/pythonProject/utils/yolo2coco-main/dataset/YOLOV5_yaml
+
+train:  # train images (relative to 'path')
+  - images/train
+val: # val images (relative to 'path')
+  - images/val
+test:
+  - images/test
+
+# Classes
+nc: 1  # number of classes
+names: ['fish']  # class names
+
